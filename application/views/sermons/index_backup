@@ -1,0 +1,35 @@
+<!-- Page Header -->
+<div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+        <h1 class="page-header">Sermons</h1>
+        <div class="row">
+        <?php   
+            $featured=TRUE;
+            foreach($sermons as $sermon) { 
+        ?>
+            <div class="<?php echo $featured? 'col-md-12':'col-md-4'?> portfolio-item">
+                <a href="/sermons/view/<?php echo $sermon->slug; ?>">
+                    <div style="background:url('https://img.youtube.com/vi/<?php echo $sermon->youtube_id; ?>/0.jpg') no-repeat; background-position: center; background-size:cover;overflow:hidden;<?php echo $featured? 'height: 500px;':'height: 205px;'?>">
+                        <!--<img class="img-responsive" style="<?php echo $featured? 'height: 500px;':'height: 205px;'?>width:100%;" src="https://img.youtube.com/vi/<?php echo $sermon->youtube_id; ?>/0.jpg" alt="<?php echo $sermon->title; ?>">-->
+                    </div>
+                <h3>
+                    <strong><?php echo $sermon->title; ?></strong>
+                </h3>
+                </a>
+                <p><?php echo $sermon->pastor; ?><br /><?php echo $sermon->passage; ?> <br /><?php echo date('F d, Y',$sermon->date); ?></p>
+
+            </div>
+        <?php $featured=FALSE;} ?>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4">
+                <a href="/sermons" class="btn btn-block btn-success">View All Sermons</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.row -->
+
+
+<!-- Projects Row -->

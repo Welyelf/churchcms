@@ -1,0 +1,839 @@
+
+body {
+        background: #efefef; 
+        border:0; 
+        font: 12px Arial, Helvetica, sans-serif; 
+        color:#777777 ; 
+        line-height:18px; 
+        min-width:320px;
+        height: 100%;
+        
+    }
+a{
+    text-decoration:none;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.header-img{
+    height: 190px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.video-container 
+        {
+        position: relative;
+        padding-bottom: 46.25%;
+        padding-top: 30px; 
+        max-width: 853px; 
+        max-height: 480px;
+        margin-right: auto;
+        margin-left: auto;
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        -moz-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+    }
+ .video-not-available
+        {
+        position: relative;
+        padding-top: 10px; 
+        max-width: 853px; 
+        margin-right: auto;
+        margin-left: auto;
+     }   
+.well {
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        -moz-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+     vertical-align: middle;
+     border: 0;
+     margin: 0 auto; 
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) 
+{
+    .video-container iframe,
+    .video-container object,
+    .video-container embed 
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        max-width: 100%;
+        vertical-align: middle;
+        border: 0;
+    }
+}
+
+
+#blog{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#blog h1{
+    margin-top: 0px;
+}
+
+#blog article{
+    margin-bottom: 50px;
+}
+
+#blog small {
+    font-weight: bold;
+}
+
+.content-divider-long{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 16px auto 50px;
+    background-color: #dedede;
+}
+
+
+
+/* CSS FOR SERMONS PAGE - WRH */
+
+@media screen and (max-width: 736px){
+
+}
+
+
+.box {
+    border-radius: 1px;
+    margin-bottom: 1em;
+    background: #2c2c32;
+    text-align: center;
+}
+h5{
+    font-size: 1.5em;
+}
+.thumbnails .box 
+{
+    margin: 0 1em 0em 1em;
+    width: 100%;
+}
+.image.fit {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%;
+}
+.image {
+    border-radius: 4px;
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+
+
+@media screen and (max-width: 346px) {
+    .thumbnails .box {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .thumbnails .box {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+.box .inner {
+    padding: 1em;
+}
+.box .inner {
+    padding: 1.5em;
+    width: 100% !important;
+}
+.box > :last-child, .box > :last-child > :last-child, .box > :last-child > :last-child > :last-child
+ {
+    margin-bottom: 0;
+}
+
+.thumbnails {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: stretch;
+    -webkit-align-items: stretch;
+    -ms-align-items: stretch;
+    align-items: stretch;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+element.style {
+    cursor: pointer;
+    outline: 0px;
+}
+ button.fit, .button.fit {
+    display: block;
+    margin: 0 0 1em 0;
+    width: 100%;
+}
+ button, .button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: #70c7be;
+    border-radius: 4px;
+    border: 0;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    height: 2.85em;
+    line-height: 2.95em;
+    padding: 0 1.5em;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.form-container 
+{
+    min-height: 100%;
+    position: relative;
+}
+#view_sermon
+{
+    max-width: 2000px;
+    margin: auto;
+    padding: 0px 0px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    text-justify: inter-word;
+    margin-top:20px;
+    -moz-box-shadow:    3px 3px 5px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 3px #ccc;
+  box-shadow:         3px 3px 5px 3px #ccc;
+}
+@media (max-width: 768px) {
+    #view_sermon{
+        margin: 0;
+        border-style: none;
+        background: #FFFFFF;
+        border-radius: 0px;
+        text-justify: inter-word;
+        margin-top:20px;
+        -moz-box-shadow:    none;
+        -webkit-box-shadow: none;
+        box-shadow:         none;
+    }
+}
+
+
+#view_page
+{
+    max-width: 700px;
+    margin: auto;
+    padding: 0px 0px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    text-justify: inter-word;
+}
+
+
+
+.work1 .txt1 {
+    float: left;
+    border: 4px solid #3c3c3c;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 800;
+    color: #444444;
+    text-transform: uppercase;
+}
+.work1 .txt2 {
+    display: table;
+    padding: 7px 0 0 20px;
+    font-family: 'Oswald';
+    font-size: 18px;
+    line-height: 24px;
+    color: #444444;
+    text-transform: uppercase;
+}
+
+
+/* CSS for donation form */
+
+.content {
+    padding: 30px 0;
+}
+
+.pricing {
+  position: relative;
+  margin-bottom: 15px;
+  border: 3px solid #eee;
+}
+
+.pricing-active {
+  border: 3px solid #878b8e;
+  margin-top: -10px;
+  
+}
+
+.pricing-head {
+  text-align: center;
+}
+
+.pricing-head h3{
+  margin: 0;
+  line-height: normal;
+}
+
+.pricing-head h3 span {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.pricing-head h3 {
+  font-weight: 300;
+  color: #858585;
+  padding: 12px 0;
+  font-size: 2em;
+  background: #d1d4d6;
+  border-bottom: solid 1px #a1a4a7;
+}
+
+
+.pricing-content li {
+  color: #888;
+  font-size: 1.4em;
+  padding: 7px 15px;
+  border-bottom: solid 1px #f5f9e7;
+}
+
+/* CSS for event page - month */
+
+table tr th
+    {
+      font-size:1.4em;
+      color:#444444
+    }
+
+
+@media screen and (max-width: 1000px) 
+{
+
+    table { border: 0; }
+
+    table caption { font-size: 1.3em; }
+
+    table thead { display: none; }
+
+    table tr {
+      border-bottom: 3px solid #fff;
+      display: block;
+      margin-bottom: 1.25em;
+    }
+
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: 1.1em;
+      text-align: right;
+    }
+
+    table td:before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    table td:last-child { border-bottom: 0; }
+}
+
+
+/* CSS - Site location on footer  */
+
+.google_map
+    { 
+        position: relative; 
+        overflow: hidden; 
+        margin: 0 0 20px 0; 
+        padding: 0px;
+        background: #fff; 
+        border: 0px solid #fff;
+        line-height: 1px;
+    }
+.google_map iframe
+    {
+        position: relative; 
+        width: 100%; 
+        height: 240px; 
+        border: none; 
+        background: #fff;
+    }
+
+
+#content{
+    min-height: calc(100vh - 300px);
+    display: table-row; 
+    height:100%;
+}
+#inner{position: relative; z-index: 1; padding-top: 60px;display:grid;}
+
+#main{
+    display: grid;
+    margin:0; 
+    position: relative; 
+    overflow: hidden;
+}
+.page-footer
+{
+   
+}
+
+/* For user login page */
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+
+.card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+/** css for sermon pages **/
+
+    .thumbnail{
+        position:relative;
+        padding:0px;
+        margin-bottom:20px;
+        border:4px solid #5d5b5b;
+        
+    }
+
+    
+    .box {
+        position: relative;
+        border: 1px solid #e3e3e3;
+        border-radius: 3px;
+        width: 100%;
+        height: 50px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+        background-color: #f5f5f5;
+    }
+    
+    .box:hover {
+        transform: scale(1.1);
+    }
+    
+    .box-header {
+        display: block;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .box-title {
+        display: inline-block;
+        font-size: 18px;
+        margin: 0;
+        line-height: 1;
+    }
+    
+    .box-title > .box-tools {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+    }
+/** css for error not found page **/
+@media only screen and (max-width: 479px){
+    #block_error { width: 90%; }
+}
+    #block_error{
+        border: 1px solid #cccccc;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        position: relative;
+        margin:0 auto;
+        line-height: 1.6em;
+        font-size:1.4em;
+        
+    }
+    #block_error div{
+        padding: 50px 40px 0 16px;
+    }
+    #block_error div span{
+        color: #55ab55;
+        font-size: 24px;
+        display: block;
+        padding: 0 0 14px 0;
+        margin-bottom: 12px;
+        font-weight: normal;
+    }
+/** css for sermon view page **/
+ #list4 ul { list-style: none; }
+            #list4 ul li { }
+            #list4 ul li a { display:block; text-decoration:none;  line-height:30px;
+            border-bottom-style:solid; border-bottom-width:0px; border-bottom-color:#CCCCCC; padding-left:1px; cursor:pointer; }
+            #list4 ul li a:hover { color:#5bb75b;  background-repeat:repeat-x; }
+            
+            /* Tabs panel */
+            .tabbable-panel {
+              border:3px solid #5d5b5b;
+              padding: 10px;
+            }
+
+            .tabbable-line > .nav-tabs {
+              border: none;
+              margin: 0px;
+            }
+            .tabbable-line > .nav-tabs > li {
+              margin-right: 15px;
+            }
+            .tabbable-line > .nav-tabs > li > a {
+              border: 0;
+              margin-right: 0;
+              color: #737373;
+            }
+            .tabbable-line > .nav-tabs > li > a > i {
+              color: #a6a6a6;
+            }
+            .tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+              border-bottom: 4px solid #fbcdcf;
+            }
+            .tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+              border: 0;
+              background: none !important;
+              color: #333333;
+            }
+            .tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+              color: #a6a6a6;
+            }
+            .tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+              margin-top: 0px;
+            }
+            .tabbable-line > .nav-tabs > li.active {
+              border-bottom: 4px solid #f3565d;
+              position: relative;
+            }
+            .tabbable-line > .nav-tabs > li.active > a {
+              border: 0;
+              color: #333333;
+            }
+            .tabbable-line > .nav-tabs > li.active > a > i {
+              color: #404040;
+            }
+            .tabbable-line > .tab-content {
+              margin-top: 0px;
+              background-color: #fff;
+              border: 0;
+              border-top: 1px solid #eee;
+              padding: 15px 0;
+            }
+            .portlet .tabbable-line > .tab-content {
+              padding-bottom: 0;
+            }
+/** css for pagination **/
+
+    .numlink ,.nextlink , .prevlink {
+        color: black;
+        float: left;
+        text-decoration: none;
+        font-size : 1.2em;
+        cursor : pointer;
+        padding: 4px 12px;
+        margin-bottom: 0;
+        margin-left: .3em;
+        line-height: 20px;
+        text-align: center;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+        vertical-align: middle;
+        background-color: #f5f5f5;
+        background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+        background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+        background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+        background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+        background-repeat: repeat-x;
+        border: 1px solid #cccccc;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+        border-bottom-color: #b3b3b3;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        zoom: 1;
+        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+
+    }
+
+    .curlink{
+        color: #ffffff;
+        float: left;
+        padding: 4px 12px;
+        text-decoration: none;
+        font-size : 1.2em;
+        cursor : pointer;
+        margin-bottom: 0;
+        margin-left: .3em;
+        line-height: 20px;
+        text-align: center;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+        vertical-align: middle;
+        background-color: #51a351;
+        background-image: -moz-linear-gradient(top, #62c462, #51a351);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+        background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+        background-image: -o-linear-gradient(top, #62c462, #51a351);
+        background-image: linear-gradient(to bottom, #62c462, #51a351);
+        background-repeat: repeat-x;
+        border: 1px solid #62c462;
+        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+        border-bottom-color: #b3b3b3;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        zoom: 1;
+        -webkit-appearance: button;
+    }
+
+
+    
+    .pagination-link{
+        padding-bottom : 40px;
+        display: block;
+        cursor : pointer;
+    }
+    
+/** CSS FOR BLOGS WIDGET **/
+.panel-body{
+    text-align: justify;
+    word-wrap:break-word;
+}
+ .post-title{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.30em;
+    margin: 3px 0 0.73em;
+    word-wrap:break-word;
+}
+.post-date {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #51a451;
+    text-transform: uppercase;
+    display:block;
+}     
+.panel-google-plus {
+    position: relative;
+    border-radius: 0px;
+    border: 1px solid rgb(216, 216, 216);
+    font-family: 'Roboto', sans-serif;
+}
+
+.panel-google-plus > .panel-heading,
+.panel-google-plus > .panel-footer {
+    background-color: rgb(255, 255, 255);
+    border-width: 0px; 
+}
+.panel-google-plus > .panel-heading {
+    margin-top: 20px;    
+    padding-bottom: 5px; 
+}
+
+.panel-google-plus > .panel-body {
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+.panel-google-plus > .panel-footer {
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 54px;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 4px;
+     border-radius: 10px;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #ffffff;
+    border-color: #ddd;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #ffffff;
+}
+
+.panel-body {
+    padding: 15px;
+    
+}
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/** CSS for events button **/
+  .eventsBtn {
+        line-height: 36px;
+    }
+ 
+/** CSS for alert **/
+
+.alert {
+    padding: 20px;
+    background-color: #f8d7da;
+    color: #721c24;
+    font-size:1.2em;
+    border-color: #f5c6cb;
+}
+
+.alert-success {
+    padding: 20px;
+    background-color: #dff0d8;
+    color: #3c763d;
+    font-size:1.2em;
+    border-color: #d6e9c6;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: #721c24;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+/** PHOTO BANNER **/
+
+.photo_banner{
+    width:100%;
+    height : 100%; /** 520px **/
+}
+
+.sermon_image{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    max-width: 100%;
+    vertical-align: middle;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+       object-fit: cover;
+}
+
+.sermon-box-card{
+    margin: 10px 10px 10px 10px;
+    height:100px;
+    width:215px;
+    max-width:100%;
+}
+.sermon-hover:hover{
+    transform: scale(1.1);
+}
+.sermon-box{
+    height:300px;
+    width:260px;
+
+}

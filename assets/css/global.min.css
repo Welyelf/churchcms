@@ -1,0 +1,67 @@
+footer {
+    margin: 50px 0;
+}
+
+.form-error{
+    color: #FF0000 !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a{
+    color: #ffffff !important;
+}
+
+.visible-xs-table-cell, .visible-sm-table-cell{
+    display:none!important;
+}
+
+@media (max-width: 767px){
+    .visible-xs-table-cell {
+        display: table-cell!important;
+    }
+}
+
+
+@media (max-width: 991px) and (min-width: 768px){
+    .visible-sm-table-cell {
+        display: table-cell!important;
+    }
+}
+
+.kedra_panel
+    {
+        padding: 20px 15px 15px;
+        background: #FFF;
+        border: 1px solid #D5D5D5;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+ /** CSS for settings tooltip **/   
+.tooltips {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  float:right;
+  
+}
+
+.tooltips .tooltiptext {
+  visibility: hidden;
+  width: 320px;
+  background-color: #f5f5f5;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 105%; 
+  margin:0;
+  
+}
+
+.tooltips:hover .tooltiptext {
+  visibility: visible;
+}
